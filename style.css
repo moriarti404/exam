@@ -1,0 +1,211 @@
+/*
+Theme Name:     _tk child
+Description:    Child theme for dazzling
+Author:         Myroslava Novitska
+Template:       _tk
+Version:        0.1.0
+*/
+
+@import url("../_tk/style.css");
+
+
+/* Header container styles */
+.header-blog {
+    height: 365px;
+    background: #ffffff url("img/header-bg.jpg") no-repeat;
+    background-size: 100%;
+}
+
+/* Primary menu styles */
+.menu {
+    padding: 0px;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.menu a {
+    color: #909090;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu a:hover, a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-content-inner {
+    padding-top: 30px;
+    padding-left: 90px;
+}
+/* Sidebar 1 styles */
+
+.sidebar-padder {
+    padding: 60px 45px;
+}
+.sidebar {
+    position: relative;
+    background-color: #f6f6f6;
+    font-family: "Open Sans", sans-serif;
+}
+
+.search-field {
+    display: inline-block;
+    width: 225px;
+    height: 35px;
+    border: none;
+    border-radius: 0px;
+}
+
+.search-submit {
+    display: inline-block !important;
+    background-color: #c4c4c4;
+    width: 35px;
+    height: 35px;
+    border-radius: 0px;
+}
+
+/* Footer social links styles */
+.links {
+    background-color: #00a2f2;
+    height: 115px;
+}
+
+.links ul {
+    padding: 0px;
+    text-align: center;
+    line-height: 105px;
+}
+.links li {
+    display: inline-block;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+/* Footer menu styles */
+.copyright {
+    vertical-align: middle;
+}
+.footer-menu {
+    background-color: #018dd2;
+    height: 73px;
+    line-height: 53px;
+    padding: 0px 60px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer-menu ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+    line-height: 53px;
+}
+
+.footer-menu li{
+    display: inline-block;
+    margin: 0px 10px;
+    vertical-align: middle;
+}
+
+.footer-menu a {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-menu a:hover, a:active {
+    color: #909090;
+    text-decoration: none;
+}
+
+/* Work header styles */
+
+.header-work {
+    background-color: #ffffff;
+}
+
+
+.menu-work a:hover, a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo-container{
+    padding-top: 30px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* All posts styles */
+.post {
+    font-family: "Open Sans", sans-serif;
+    border-bottom: solid 1px #b5b5b5;
+}
+
+.post h1 {
+    margin: 30px 0px 10px 0px;
+    font-size: 32px;
+}
+
+.post h1 > a {
+    color: #000;
+}
+
+.post .entry-date {
+    color: #7f7f7f;
+    font-size: 13px;
+}
+
+.post p {
+    margin: 15px 0px 25px 0px;
+}
+.post img {
+    margin-bottom: 50px;
+}
+
+/* Project post styles */
+
+.work-header {
+    padding: 50px;
+}
+
+.projects {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.projects h1 {
+    margin: 5px;
+    font-size: 20px;
+}
+
+.projects h1 > a{
+    color: #000;
+}
+
+.projects a {
+    color: #9b9b9b;
+    font-family: "Open Sans", sans-serif;
+}
+
+.projects a:hover {
+    text-decoration: none;
+    color: #00a2f2;
+}
+
+
+
+
+
+
