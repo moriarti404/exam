@@ -6,6 +6,7 @@ get_header(); ?>
 <?php
     $args = array(
     'post_type' => 'post',
+    'posts_per_page' => 2,
     'publish' => true,
     'paged' => get_query_var('paged'),
     'order' => 'ASC',

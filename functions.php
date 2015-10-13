@@ -115,3 +115,52 @@ register_taxonomy('purpose',
 }
 add_action( 'init', 'add_new_taxonomies', 0 );
 
+function _tk_child_customizer_url( $wp_customize ) {
+    //All our sections, settings, and controls will be added here
+
+    $wp_customize->add_section( 'text_field_section' , array(
+        'title'      => __( 'Custom social links', '_tk-child' ),
+        'priority'   => 30,
+    ) );
+
+    $wp_customize->add_setting( 'text_field-1' , array(
+        'transport'   => 'refresh',
+    ) );
+
+    $wp_customize->add_setting( 'text_field-2' , array(
+        'transport'   => 'refresh',
+    ) );
+
+    $wp_customize->add_setting( 'text_field-3' , array(
+        'transport'   => 'refresh',
+    ) );
+
+    $wp_customize->add_setting( 'text_field-4' , array(
+        'transport'   => 'refresh',
+    ) );
+
+    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'linkedin_link', array(
+        'label'      => __( 'Linkedin', '_tk-child' ),
+        'section'    => 'text_field_section',
+        'settings'   => 'text_field-1',
+    ) ) );
+
+    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'twitter_link', array(
+        'label'      => __( 'Twitter', '_tk-child' ),
+        'section'    => 'text_field_section',
+        'settings'   => 'text_field-2',
+    ) ) );
+
+    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'mail_link', array(
+        'label'      => __( 'Mail', '_tk-child' ),
+        'section'    => 'text_field_section',
+        'settings'   => 'text_field-3',
+    ) ) );
+
+    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'rss_link', array(
+        'label'      => __( 'RSS', '_tk-child' ),
+        'section'    => 'text_field_section',
+        'settings'   => 'text_field-4',
+    ) ) );
+}
+add_action( 'customize_register', '_tk_child_customizer_url' );

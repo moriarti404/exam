@@ -40,18 +40,50 @@ Version:        0.1.0
 }
 
 .main-content-inner {
-    padding-top: 30px;
-    padding-left: 90px;
+    padding: 30px 45px 0px 90px;
 }
 /* Sidebar 1 styles */
 
 .sidebar-padder {
-    padding: 60px 45px;
+    padding: 60px 37px;
 }
 .sidebar {
     position: relative;
     background-color: #f6f6f6;
     font-family: "Open Sans", sans-serif;
+}
+
+.sidebar h3 {
+    font-size: 15px;
+    margin: 10px 0px;
+    font-weight: 700;
+}
+
+.widget_text {
+    margin-bottom: 60px;
+}
+
+.widget_text p {
+    line-height: 30px;
+    color: #5b5b5b;
+}
+
+.MultiColorSubscribeWidget em {
+    display: block;
+    font-style: normal;
+    padding: 5px 0px 10px 0px;
+}
+
+.widget_recent_entries {
+    padding: 35px 0px;
+    border-top:  solid 1px #dadada;
+    border-bottom:  solid 1px #dadada;
+}
+
+.widget_recent_entries a{
+    padding: 0px !important;
+    line-height: 30px;
+    color: #5b5b5b;
 }
 
 .search-field {
@@ -64,6 +96,7 @@ Version:        0.1.0
 
 .search-submit {
     display: inline-block !important;
+    margin-left: -3px;
     background-color: #c4c4c4;
     width: 35px;
     height: 35px;
@@ -137,7 +170,7 @@ Version:        0.1.0
 }
 
 .logo-container{
-    padding-top: 30px;
+    padding-top: 20px;
     line-height: 60px;
     text-align: center;
 }
@@ -154,7 +187,7 @@ Version:        0.1.0
 }
 
 .post h1 {
-    margin: 30px 0px 10px 0px;
+    margin: 40px 0px 10px 0px;
     font-size: 32px;
 }
 
@@ -167,11 +200,16 @@ Version:        0.1.0
     font-size: 13px;
 }
 
+.post .entry-content {
+    font-size: 17px;
+    line-height: 2em;
+}
+
 .post p {
     margin: 15px 0px 25px 0px;
 }
 .post img {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 /* Project post styles */
@@ -183,6 +221,7 @@ Version:        0.1.0
 .projects {
     text-align: center;
     font-family: "Open Sans", sans-serif;
+    margin-bottom: 15px;
 }
 
 .projects h1 {

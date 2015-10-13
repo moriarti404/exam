@@ -16,9 +16,9 @@
 	<div class="row links">
 		<div class="col-md-4 col-md-offset-4">
 			<ul>
-				<li><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/footer-linkedin-link.png"/></a> </li>
-				<li><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/footer-twitter-link.png"/></a> </li>
-				<li><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/footer-mail-link.png"/></a></li>
+				<li><a href="<?php echo get_theme_mod('text_field-1'); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/footer-linkedin-link.png"/></a> </li>
+				<li><a href="<?php echo get_theme_mod('text_field-2'); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/footer-twitter-link.png"/></a> </li>
+				<li><a href="<?php echo get_theme_mod('text_field-3'); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/footer-mail-link.png"/></a></li>
 			</ul>
 		</div>
 	</div>
